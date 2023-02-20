@@ -1,0 +1,37 @@
+{
+  "name": "react-antd-color-picker",
+  "author": "DanhVT",
+  "description": "Colorpicker field for Ant Design 5 form",
+  "version": "0.1.0",
+  "main": "./dist/cjs/index.js",
+  "module": "./dist/esm/index.js",
+  "types": "./dist/esm/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phaobinh868/react-antd-color-picker"
+  },
+  "scripts": {
+    "build": "yarn build:esm && yarn build:cjs",
+    "build:esm": "tsc",
+    "build:cjs": "tsc --module commonjs --outDir dist/cjs",
+    "test": "jest --config jestconfig.json",
+    "lint": "eslint \"{**/*,*}.{js,ts,jsx,tsx}\"",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm test && npm run lint"
+  },
+  "dependencies": {
+    "@types/node": "18.11.10",
+    "@types/react": "18.0.26",
+    "@types/react-color": "^3.0.6",
+    "@types/react-dom": "18.0.9",
+    "@types/tinycolor2": "^1.4.3",
+    "antd": "^5.2.2",
+    "prop-types": "^15.8.1",
+    "react": "18.2.0",
+    "react-color": "^2.19.3",
+    "react-dom": "18.2.0",
+    "tinycolor2": "^1.6.0",
+    "tslib": "^2.5.0",
+    "typescript": "4.9.5"
+  }
+}
