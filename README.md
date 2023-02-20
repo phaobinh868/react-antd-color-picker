@@ -1,11 +1,6 @@
 # react-antd-color-picker
 
-[![NPM version][npm-image]][npm-url]
-[![Build][github-build]][github-build-url]
-![npm-typescript]
-[![License][github-license]][github-license-url]
-
-Package helps you to add colorpicker to [Antd Design](https://www.npmjs.com/package/antd) form.
+Package helps you to add colorpicker to [Antd Design 5](https://www.npmjs.com/package/antd) form.
 
 [React-color](https://www.npmjs.com/package/react-color) is used as colorpicker.
 
@@ -73,8 +68,6 @@ export default App
 ```js
 <Colorpicker popup />
 ```
-
-![Demo popup](https://media.giphy.com/media/vevqTj5z8fgdhjkxLy/giphy.gif)
 
 ### Change block, which fires popup window
 
